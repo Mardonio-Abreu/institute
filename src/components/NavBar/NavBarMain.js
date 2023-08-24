@@ -25,7 +25,7 @@ function BasicNavbar() {
             </NavDropdown>
             <Nav.Link href="#presentation">Presentation</Nav.Link>
             <Nav.Link href="#Cart">
-              <Cart />
+              <Cart quantity={5}/>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

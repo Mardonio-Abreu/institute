@@ -1,9 +1,9 @@
 
-function Cart (){
+function Cart (prop){
     return (
         <>
-            <img src="cartIcon.png" alt="Shopping cart"/>
-            <span>5</span>
+            <img className="cart" src="cartIcon.png" alt="Shopping cart"/>
+            <span>{prop.quantity}</span>
         </>
         
         )
